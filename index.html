@@ -79,7 +79,7 @@
         </nav>
 
         <!-- slider carousel -->
-        <div class="carousel w-full bg-bike-primary-bg lg:h-[550px] mt-5 mb-28">
+        <div class="carousel w-full bg-bike-primary-bg lg:h-[550px] mt-5 ">
             <!-- slide 1 -->
             <div id="slide1" class="carousel-item relative w-full">
                 <div class="flex flex-col p-12 lg:flex-row lg:p-24">
@@ -148,7 +148,7 @@
       <main class="md:container mx-auto">
 
         <!-- featured bike section -->
-         <section class="mb-28">
+         <section class="my-28">
             <!-- text content -->
              <div class="text-center mb-7 space-y-2">
                 <h1 class="text-6xl font-bold">Fetured Bikes In This Year</h1>
@@ -156,7 +156,7 @@
                 <!-- <hr class="w-1/12 bg-bike-primary"> -->
              </div>
              <!-- img card -->
-              <div class="grid grid-cols-1 lg:grid-cols-3">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center">
                 <div>
                     <img class="grayscale" src="./images/others/feature-bike.png" alt="">
                 </div>
@@ -170,10 +170,128 @@
               </div>
          </section>
 
+         <!-- news section -->
+          <section class="my-28">
+            <h1 class="text-6xl font-bold text-center">Latest News</h1>
+            <!-- news card -->
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5 gap-12">
+                <!-- card 1 -->
+                <div class="card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="./images/others/latest1.png"
+                        alt="Ducati XDIAVEL S-73" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                      <p class="text-[#6C6C6C] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions ">
+                        <button class="btn bg-bike-primary text-white">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card 2 -->
+                <div class="card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="./images/others/latest2.png"
+                        alt="Motorcycles & Scooters" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">Motorcycles & Scooters</h2>
+                      <p class="text-[#6C6C6C] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions ">
+                        <button class="btn bg-transparent border border-bike-primary text-bike-primary">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card 3 -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure>
+                      <img
+                        src="./images/others/latest3.png"
+                        alt="2021 Honda CBR500R" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">2021 Honda CBR500R</h2>
+                      <p class="text-[#6C6C6C] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions ">
+                        <button class="btn bg-transparent border border-bike-primary text-bike-primary">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+             </div>
+          </section>
+
+          <!-- FAQ section -->
+           <section class="my-28">
+            <h1 class="text-6xl font-bold text-center">Frequently Asked <span class="text-bike-primary">Question</span></h1>
+            <div class="hero">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img
+                    src="./images/others/faq.png"
+                    class="w-full rounded-lg shadow-2xl" />
+                    <!-- accordion -->
+                  <div class="space-y-5">
+                    <div class="collapse collapse-arrow border border-blue-100">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">What are the most important things I should
+                            know about riding a bike?</div>
+                        <div class="collapse-content">
+                          <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-arrow border border-blue-100">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a 
+                            new one?</div>
+                        <div class="collapse-content">
+                          <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-arrow border border-blue-100">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                        <div class="collapse-content">
+                          <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-arrow border border-blue-100">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+                        <div class="collapse-content">
+                          <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+           </section>
+
       </main>
       <!-- footer section -->
-      <footer>
-
+      <footer class="footer bg-black text-neutral-content p-10">
+        <aside>
+          
+          <p>
+            ACME Industries Ltd.
+            <br />
+            Providing reliable tech since 1992
+          </p>
+        </aside>
+        <nav>
+          <h6 class="text-2xl font-semibold text-white">Get the App</h6>
+          <div class="grid grid-cols-1 gap-4">
+            <a>
+              <img class="w-36" src="./images/others/android.png" alt="">
+            </a>
+            <a>
+              <img class="w-36" src="./images/others/ios.png" alt="">
+            </a>
+            
+          </div>
+        </nav>
       </footer>
 </body>
 </html>
